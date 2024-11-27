@@ -21,6 +21,8 @@ else{
 	retorno = num
 }
 
+Console.WriteLine("Retorno: " + retorno)
+
 ------------------------------------------------------
 
 int num
@@ -48,3 +50,5 @@ SENÃO
 	
 	retorno = num
 FIMSENÃO
+
+ESCREVA "Retorno = " + 2
