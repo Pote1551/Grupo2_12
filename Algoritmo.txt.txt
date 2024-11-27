@@ -1,0 +1,50 @@
+JAVA
+
+int num = Scanner
+int retorno = 0;
+
+if(num < 1){
+	System.Error.Print("Número inválido")
+}
+else if(num < 10){
+	retorno = num
+}
+else{
+	while(num < 10){
+
+		int digito1 = num[0]
+		int digito2 = num[1]
+
+		num = digito1 + digito2	
+	}
+
+	retorno = num
+}
+
+------------------------------------------------------
+
+int num
+int retorno
+int digito1
+int digito2
+
+
+num = Ler input
+retorno = 0
+
+SE NUM < 1
+	ENTÃO Retorna erro ("Número Inválido")
+FIM SE
+SE NUM < 10
+	Então retorno = num
+FIM SE
+SENÃO
+	ENQUANTO (num < 10){
+		digito1 = Obter Primeiro Digito
+		digito2 = Obter Segundo Digito
+
+		num = digito1 + digito2	
+	}
+	
+	retorno = num
+FIMSENÃO
