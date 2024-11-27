@@ -1,0 +1,2 @@
+G) Merge é junção de 2 branches em que os tipos são fast forward merge, three way merge, squash merge.
+
